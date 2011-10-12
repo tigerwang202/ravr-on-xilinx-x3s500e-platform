@@ -1,0 +1,40 @@
+
+block_name/  Top level directory of a core 
+    backend/  Top level backend directory 
+        <vendor>/  Vendor specific floorplan, place and route directory structure 
+    sim/  Top level simulations directory 
+        rtl_sim/  RTL simulations 
+            bin/  RTL simulation scripts 
+            run/  For running RTL simulations 
+            src/  Special sources for RTL simulations 
+            out/  Dump and other useful output from RTL simulation 
+            log/  Log files 
+        gate_sim/  Gate-level simulations 
+            bin/  Gate-level simulation scripts 
+            run/  For running gate-level simulations 
+            src/  Special sources for gate-level simulations 
+            out/  Dump and other useful output from gate-level simulation 
+            log/  Log files 
+   syn/  Synthesis 
+       <vendor>/  Each synthesis tool has separate directory 
+           bin/  For synthesis scripts 
+           run/  For running synthesis scripts 
+           src/  Special sources for synthesis 
+           out/  For generated netlists (Synopsys db, verilog) 
+           log/  Log files (including reports) 
+   lint/  Lint 
+           bin/  Lint scripts 
+           run/  For running linter 
+           out/  Lint report 
+           log/  Log files 
+   fv/  Formal verification 
+   lib/  Vendor target libraries 
+   rtl/  RTL sources 
+           verilog/  For verilog sources 
+           vhdl/  For VHDL sources 
+   bench/  Bench sources 
+       verilog/  For verilog sources 
+       vhdl/  For VHDL sources 
+   doc/  Put specification, design and other PDF documents here 
+       src/  Source version of all documents (Word, StarOffice, Frame Maker) 
+   sw/  Put sources for utilities or software test cases here
